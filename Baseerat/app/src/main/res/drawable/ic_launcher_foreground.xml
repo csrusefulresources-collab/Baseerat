@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simple eye / vision symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30C40,30 28.5,38.5 24,50C28.5,61.5 40,70 54,70C68,70 79.5,61.5 84,50C79.5,38.5 68,30 54,30ZM54,62C47.4,62 42,56.6 42,50C42,43.4 47.4,38 54,38C60.6,38 66,43.4 66,50C66,56.6 60.6,62 54,62Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,44C50.7,44 48,46.7 48,50C48,53.3 50.7,56 54,56C57.3,56 60,53.3 60,50C60,46.7 57.3,44 54,44Z"/>
+</vector>

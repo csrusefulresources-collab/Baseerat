@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Calm, high-contrast palette suitable for low vision -->
+    <color name="primary">#1B4F72</color>
+    <color name="primary_dark">#0E2F44</color>
+    <color name="primary_container">#D4E6F1</color>
+    <color name="secondary">#B9770E</color>
+    <color name="secondary_container">#FDEBD0</color>
+    <color name="background">#F7F9FC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#E8EEF4</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_surface">#1A252F</color>
+    <color name="on_surface_variant">#4A5C6A</color>
+    <color name="error">#C0392B</color>
+    <color name="success">#1E8449</color>
+    <color name="outline">#A0B0C0</color>
+</resources>

@@ -1,0 +1,24 @@
+#!/bin/sh
+# Simple, reliable Gradle wrapper launcher for CI and local use.
+
+APP_HOME=$(cd "$(dirname "$0")" && pwd -P) || exit 1
+CLASSPATH="$APP_HOME/gradle/wrapper/gradle-wrapper.jar"
+
+if [ ! -f "$CLASSPATH" ]; then
+  echo "ERROR: gradle-wrapper.jar not found at $CLASSPATH" >&2
+  exit 1
+fi
+
+if [ -n "$JAVA_HOME" ] && [ -x "$JAVA_HOME/bin/java" ]; then
+  JAVACMD="$JAVA_HOME/bin/java"
+elif command -v java >/dev/null 2>&1; then
+  JAVACMD=java
+else
+  echo "ERROR: java not found. Set JAVA_HOME or install JDK." >&2
+  exit 1
+fi
+
+exec "$JAVACMD" \
+  -classpath "$CLASSPATH" \
+  org.gradle.wrapper.GradleWrapperMain \
+  "$@"
